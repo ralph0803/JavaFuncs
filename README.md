@@ -18,3 +18,13 @@ list的长度：target.size();
 取String中的元素：target.charAt(i);
 
 单维的hash用HashSet，二维用HashMap，HashSet初始化格式和Set, List一样。
+
+String的subset：target.substring(5,13);
+
+array的subset：Arrays.copyOfRange(target, start, end);
+
+String转array：target.toCharArray();
+
+array转list：Arrays.asList(target); // 但target必须是primitive type，比如Integer，Character，Double，而不是int, char, double
+
+list转array：target.toArray(new Object[size]);
