@@ -17,7 +17,7 @@ list的长度：target.size();
 
 取String中的元素：target.charAt(i);
 
-单维的hash用HashSet，二维用HashMap，HashSet初始化格式和Set, List一样。
+单维的hash用HashSet，二维用HashMap，HashSet初始化格式和Set, List一样，但HashSet的值不可以重复，List的值可以重复。
 
 String的subset：target.substring(5,13);
 
