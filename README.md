@@ -31,4 +31,4 @@ list转array：target.toArray(new Object[size]);
 
 二维数组的长和宽：第一维（长）：target.length; 第二维（宽）：target[0].length;
 
-check检查String是否为空：target.isEmpty();
+check检查String或List是否为空：target.isEmpty();
