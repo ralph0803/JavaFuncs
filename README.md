@@ -25,6 +25,16 @@ array的subset：Arrays.copyOfRange(target, start, end);
 
 String转array：target.toCharArray();
 
+String转int：int foo = Integer.parseInt("1234");
+
+char转int：int x = Character.getNumericValue(element.charAt(2));
+
+int转char："" + target;
+
+String append：target1 + target2;
+
+String append from the front：target = target1 + target;
+
 array转list：Arrays.asList(target); // 但target必须是primitive type，比如Integer，Character，Double，而不是int, char, double
 
 list转array：target.toArray(new Object[size]);
