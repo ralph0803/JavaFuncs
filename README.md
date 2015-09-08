@@ -44,3 +44,5 @@ list转array：target.toArray(new Object[size]);
 check检查String或List是否为空：target.isEmpty();
 
 char初始化：char target = '\0';
+
+int转String：String.valueOf(target);
