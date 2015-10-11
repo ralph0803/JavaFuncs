@@ -1,5 +1,5 @@
 # QuickCode
-Some no-brainer codes for debugging
+Some no-brainer codes for Java
 
 打印array元素：System.out.println(Arrays.toString(target));
 
