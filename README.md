@@ -14,13 +14,10 @@ Some no-brainer codes for Java
 打印ArrayList元素：直接System.out.println(target);
 
 
-声明ArrayList：ArrayList<Integer> pointX = new ArrayList<Integer>();
-
-声明String：String[] str = new String[10];
-
-声明int：int a = 0;
-
-char初始化：char target = '\0';
+    声明ArrayList：ArrayList<Integer> pointX = new ArrayList<Integer>();
+    声明String：String[] str = new String[10];
+    声明int：int a = 0;
+    char初始化：char target = '\0';
 
 
 array的长度：target.length;
