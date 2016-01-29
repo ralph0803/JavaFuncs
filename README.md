@@ -3,15 +3,11 @@ Some no-brainer codes for Java
 
 打印Hello World：
 
-public class HelloWorld {
-
-    public static void main(String[] args){
-    
-        System.out.println("Hello World!");
-    
+    public class HelloWorld{
+        public static void main(String[] args){
+            System.out.println("Hello World!");
+        }
     }
-    
-}
 
 打印array元素：System.out.println(Arrays.toString(target));
 
