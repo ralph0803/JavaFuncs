@@ -9,9 +9,8 @@ Some no-brainer codes for Java
         }
     }
 
-打印array元素：System.out.println(Arrays.toString(target));
-
-打印ArrayList元素：直接System.out.println(target);
+    打印array元素：System.out.println(Arrays.toString(target));
+    打印ArrayList元素：直接System.out.println(target);
 
 
 声明ArrayList：ArrayList<Integer> pointX = new ArrayList<Integer>();
