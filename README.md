@@ -10,12 +10,14 @@ Some no-brainer codes for Java
     }
 
 打印array元素：
+
     int[] arr = {1,2,3};
     System.out.println(Arrays.toString(arr));
     String[] arr2 = {"one", "two", "three"};
     System.out.println(Arrays.toString(arr2));
 
 打印ArrayList元素：
+
     ArrayList<Integer> lst = new ArrayList<>();
     lst.add(1);
     lst.add(2);
