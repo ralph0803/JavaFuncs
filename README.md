@@ -26,29 +26,49 @@ Some no-brainer codes for Java
 
 =====================================
 
-声明ArrayList：ArrayList<Integer> pointX = new ArrayList<Integer>();
+声明ArrayList:
 
-声明String：String[] str = new String[10];
+    ArrayList<Integer> pointX = new ArrayList<Integer>();
 
-声明int：int a = 0;
+声明String：
 
-char初始化：char target = '\0';
+    String[] str = new String[10];
+
+声明int：
+
+    int a = 0;
+
+char初始化
+
+    char target = '\0';
 
 =====================================
 
-array的长度：target.length;
+array的长度
 
-String的长度：target.length();
+    target.length;
 
-list的长度：target.size();
+String的长度
+
+    target.length();
+
+list的长度
+
+    target.size();
 
 =====================================
 
-取array中的元素：target[i];
+取array中的元素:
 
-取arrayList中的元素：target.get(i);
+    target[i];
 
-取String中的元素：target.charAt(i);
+取arrayList中的元素：
+
+    target.get(i);
+
+取String中的元素：
+
+    target.charAt(i);
 
 =====================================
 
@@ -56,36 +76,62 @@ list的长度：target.size();
 
 =====================================
 
-String的subset：target.substring(5,13);
+String的subset：
 
-array的subset：Arrays.copyOfRange(target, start, end);
+    target.substring(5,13);
 
-=====================================
+Array的subset：
 
-String转array：target.toCharArray();
-
-String转int：int foo = Integer.parseInt("1234");
-
-int转String：String.valueOf(target);
-
-int转char："" + target;
-
-char转int：int x = Character.getNumericValue(element.charAt(2));
-
-array转list：Arrays.asList(target); // 但target必须是primitive type，比如Integer，Character，Double，而不是int, char, double
-
-list转array：target.toArray(new Object[size]);
+    Arrays.copyOfRange(target, start, end);
 
 =====================================
 
-String append：target1 + target2;
+String转Array：
 
-String append from the front：target = target1 + target;
+    target.toCharArray();
+
+String转int：
+
+    int foo = Integer.parseInt("1234");
+
+int转String：
+
+    String.valueOf(target);
+
+int转char：
+
+    "" + target;
+
+char转int：
+
+    int x = Character.getNumericValue(element.charAt(2));
+
+Array转List：
+
+    Arrays.asList(target); // 但target必须是primitive type，比如Integer，Character，Double，而不是int, char, double
+
+List转Array：
+
+    target.toArray(new Object[size]);
 
 =====================================
 
-二维数组的长和宽：第一维（长）：target.length; 第二维（宽）：target[0].length;
+String append：
+
+    target1 + target2;
+
+String append from the front：
+
+    target = target1 + target;
 
 =====================================
 
-check检查String或List是否为空：target.isEmpty();
+二维数组的长和宽：第一维（长）：
+
+    target.length; 第二维（宽）：target[0].length;
+
+=====================================
+
+check检查String或List是否为空：
+
+    target.isEmpty();
